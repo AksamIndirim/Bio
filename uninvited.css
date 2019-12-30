@@ -2,11 +2,7 @@
     font-family: 'oswald';
     src: url('./ka1.ttf');
 }
-body {
 
-  background-image: url("image6.jpg");
- 
-}
 
 
 #logo{
@@ -17,6 +13,8 @@ body {
 }
 
 #home{
+  
+  background-image: url("image6.jpg");
   background-color: white;
 }
 
