@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'oswald';
-    src: url('./Cash_Currency.ttf');
+    src: url('./ka1.ttf');
 }
 
 
@@ -29,7 +29,7 @@ img{
   margin: 10px auto;
   width: 70vw;
   height: 50vh;
-  background: url("photos/image6.jpg") no-repeat center center;
+  background: url("./photos/image6.jpg") no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
