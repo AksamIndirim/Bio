@@ -17,18 +17,7 @@
   background-color: white;
 }
 
-.textContainer {
-  border: solid 2px black;
-  margin: 10px auto;
-  width: 70vw;
-  height: 50vh;
-  background: url("./photos/image6.jpg") no-repeat center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-  background-size: cover;
-  border-radius:8px;
-}
+
 
 .textBox{
   position: relative;
