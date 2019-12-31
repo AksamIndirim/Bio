@@ -61,7 +61,7 @@ function showPlay(){
 
 var keyData = {
   1 : {
-  sound : new Howl({src: ["music/Uninvited01.mp3"], 
+  sound : new Howl({src: ["music/Wall_Street_Rag.mp3"], 
   html5: false,                  
   onend: playNext,
   onpause: showPlay,                  
@@ -88,7 +88,7 @@ var keyData = {
   onstop: showPlay  
                     
                     }),
-  title: "Bei Mir Du Shen"
+  title: "Scott Joplin - Wall Street Rag "
   }
 }  
 
