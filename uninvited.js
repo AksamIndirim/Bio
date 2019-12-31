@@ -13,12 +13,12 @@ $("#bio").click(function(){
   $('#sectOne').show();
 });
 
-$("#photos").click(function(){
+$("#recordings").click(function(){
    $('.section').hide();
    $('#sectTwo').show();
 });
 
-$("#videos").click(function(){
+$("#links").click(function(){
    $('.section').hide();
    $('#sectThree').show();
 });
@@ -28,7 +28,7 @@ $("#contact").click(function(){
    $('#sectFour').show();
 });
 
-$("#shop").click(function(){
+$("#about").click(function(){
    $('.section').hide();
    $('#sectFive').show();
 });
@@ -68,7 +68,7 @@ var keyData = {
   onplay: onPlay,
   onstop: showPlay               
                    }),
-  title: "Honeysuckle Rose" 
+  title: "Scott Joplin - Wall Street Rag" 
   },
   2 : {
   sound : new Howl({src: ["music/Uninvited02.mp3"],
