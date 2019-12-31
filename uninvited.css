@@ -3,7 +3,14 @@
     src: url('./ka1.ttf');
 }
 
-
+img{
+  margin: 10px auto;
+  border-radius: 5px;
+  border: solid 2px black;
+  object-fit: cover;
+  max-height: 200px;
+  width: 100%;
+}
 
 
 #logo{
@@ -17,6 +24,19 @@
   background-image: url('./photos/wallpaper2.jpg');
   background-color: white;
 }
+
+.textContainer {
+  border: solid 2px black;
+  margin: 10px auto;
+  width: 70vw;
+  height: 50vh;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+  border-radius:8px;
+}
+
 
 
 
