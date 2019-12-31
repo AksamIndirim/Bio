@@ -21,6 +21,7 @@
 
 
 .textBox{
+  background-image: url('./photos/wallpaper2.jpg');
   position: relative;
   margin: 5px auto;
   margin-bottom: 25px;
