@@ -13,22 +13,22 @@ $("#bio").click(function(){
   $('#sectOne').show();
 });
 
-$("#recordings").click(function(){
+$("#about").click(function(){
    $('.section').hide();
    $('#sectTwo').show();
 });
 
-$("#links").click(function(){
+$("#recordings").click(function(){
    $('.section').hide();
    $('#sectThree').show();
 });
 
-$("#contact").click(function(){
+$("#links").click(function(){
    $('.section').hide();
    $('#sectFour').show();
 });
 
-$("#about").click(function(){
+$("#contact").click(function(){
    $('.section').hide();
    $('#sectFive').show();
 });
@@ -179,9 +179,9 @@ function menuToTurkish(){
 
 function menuToEnglish(){
  
-  $("#photos").text("Photos");
-  $("#videos").text("Videos");
-  $("#contact").text("Contact");
-  $("#language").text("Türkçe");
+  $("#photos").text("About");
+  $("#videos").text("Recordings");
+  $("#contact").text("links");
+  $("#language").text("Irtibat");
 }
 
