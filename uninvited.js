@@ -18,19 +18,15 @@ $("#about").click(function(){
    $('#sectTwo').show();
 });
 
-$("#recordings").click(function(){
+$("#bands").click(function(){
    $('.section').hide();
    $('#sectThree').show();
 });
 
-$("#links").click(function(){
-   $('.section').hide();
-   $('#sectFour').show();
-});
 
 $("#contact").click(function(){
    $('.section').hide();
-   $('#sectFive').show();
+   $('#sectFour').show();
 });
 
 var currentTrack = 1;
@@ -171,8 +167,8 @@ $("#language").click(function(){
 
 function menuToTurkish(){
  
-  $("#photos").text("Fotograflar");
-  $("#videos").text("Videolar");
+  $("#about").text("Fotograflar");
+  $("#bands").text("Videolar");
   $("#contact").text("Irtibat");
   $("#language").text("English");
 }
