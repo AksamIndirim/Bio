@@ -57,7 +57,7 @@ function showPlay(){
 
 var keyData = {
   1 : {
-  sound : new Howl({src: ["music/Wall_Street_Rag.mp3"], 
+  sound : new Howl({src: ["music/El_Rado_Scuffle_bytheragtimenightmare.mp3"], 
   html5: false,                  
   onend: playNext,
   onpause: showPlay,                  
