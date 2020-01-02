@@ -55,13 +55,7 @@ img{
 }
 
 
-#credits{
-  background-color: white;
-  padding-bottom: 20px;
-  text-align: center;
-  height: 10vh;
-  font-size: 12px;
-}
+
 
 #sectOne { 
 
@@ -74,7 +68,7 @@ img{
 }
 
 #sectThree{
-  
+    background-image: url('./photos/wallpaper2.jpg');
 }
 
 #sectFive{
