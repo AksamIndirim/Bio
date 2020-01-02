@@ -77,14 +77,14 @@ var keyData = {
   title: "Sweet Sue" 
   }, 
   3 : {
-  sound : new Howl({src: ["music/Uninvited03.mp3"], 
+  sound : new Howl({src: ["music/El_Rado_Scuffle_bytheragtimenightmare.mp3"], 
   onend: playNext,
   onpause: showPlay,                  
   onplay: onPlay,
   onstop: showPlay  
                     
                     }),
-  title: "Scott Joplin - Wall Street Rag "
+  title: "The Ragtime Nightmare - El Rado Scuffle "
   }
 }  
 
